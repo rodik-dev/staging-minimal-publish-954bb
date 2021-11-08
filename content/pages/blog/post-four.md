@@ -1,32 +1,38 @@
 ---
-title: Post Title Four
+title: Post Title Four 1
 layout: PostLayout
-date: "2021-11-03"
+date: '2021-11-03'
 author: content/data/team/hugh-saturation.json
-excerpt: |-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer condimentum dignissim justo vel faucibus.
+excerpt: >-
+  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
+  condimentum dignissim justo vel faucibus.
 featuredImage:
   type: ImageBlock
-  url: "/images/post-4.jpeg"
-  altText: "Post Image"
+  url: /images/post-4.jpeg
+  altText: Post Image
 bottomSections:
   - type: CtaSection
     colors: colors-e
     backgroundWidth: full
     title: Let's do this
-    text: |-
-      The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
+    text: >-
+      The Stackbit theme is flexible and scalable to every need. It can manage
+      any layout and any screen.
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: 'https://www.stackbit.com/'
         style: primary
     styles:
       self:
         height: auto
         width: wide
-        margin: ["mt-0", "mb-0"]
-        padding: ["pt-12", "pb-12"]
+        margin:
+          - mt-0
+          - mb-0
+        padding:
+          - pt-12
+          - pb-12
         alignItems: center
         justifyContent: center
         flexDirection: row
